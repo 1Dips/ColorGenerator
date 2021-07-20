@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Randomizer</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s;
+      }
+      * {
+        padding: 20px;
+        transition: all 0.3s;
+        border: 0;
+        border-radius: 10px;
+        outline: none;
+        font-size: 20px;
+        filter: drop-shadow(1.2px 2px 0.5px #000000);
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      button {
+        background-color: #ffffff;
+      }
+
+      #firstButton {
+        margin-left: 10px;
+      }
+      * {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="generator">Randomize</button>
+    <form>
+      <input id="input" placeholder="Type A Color Name Or Hex" />
+      <button id="changeButton" type="submit">Change</button>
+    </form>
+    <script type="text/javascript" src="html.js"></script>
+  </body>
+</html>
